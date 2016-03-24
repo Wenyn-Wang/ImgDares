@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7EAC12981CA3E10900E8DF33 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAC12971CA3E10900E8DF33 /* PostModel.swift */; };
+		7EAC129A1CA3E3B200E8DF33 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAC12991CA3E3B200E8DF33 /* ProfileModel.swift */; };
+		7EAC129C1CA3E6A700E8DF33 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAC129B1CA3E6A700E8DF33 /* ProfileController.swift */; };
 		7EF242121C9B013A00B8BCA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF242111C9B013A00B8BCA5 /* AppDelegate.swift */; };
 		7EF242141C9B013A00B8BCA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF242131C9B013A00B8BCA5 /* ViewController.swift */; };
 		7EF242171C9B013A00B8BCA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EF242151C9B013A00B8BCA5 /* Main.storyboard */; };
@@ -26,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7EAC12971CA3E10900E8DF33 /* PostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = SOURCE_ROOT; };
+		7EAC12991CA3E3B200E8DF33 /* ProfileModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = SOURCE_ROOT; };
+		7EAC129B1CA3E6A700E8DF33 /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = SOURCE_ROOT; };
 		7EF2420C1C9B013A00B8BCA5 /* ImgDares.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImgDares.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EF242101C9B013A00B8BCA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EF242111C9B013A00B8BCA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,9 +68,6 @@
 				7EF2420E1C9B013A00B8BCA5 /* ImgDares */,
 				7EF242241C9B013A00B8BCA5 /* ImgDaresTests */,
 				7EF2420D1C9B013A00B8BCA5 /* Products */,
-				7EF242321C9B03A800B8BCA5 /* Model  */,
-				7EF242311C9B03A800B8BCA5 /* Controller */,
-				7EF242331C9B03A800B8BCA5 /* View */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +89,9 @@
 				7EF242181C9B013A00B8BCA5 /* Images.xcassets */,
 				7EF2421A1C9B013A00B8BCA5 /* LaunchScreen.xib */,
 				7EF2420F1C9B013A00B8BCA5 /* Supporting Files */,
+				7EF242321C9B03A800B8BCA5 /* Model  */,
+				7EF242331C9B03A800B8BCA5 /* View */,
+				7EF242311C9B03A800B8BCA5 /* Controller */,
 			);
 			path = ImgDares;
 			sourceTree = "<group>";
@@ -118,25 +124,25 @@
 		7EF242311C9B03A800B8BCA5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				7EAC129B1CA3E6A700E8DF33 /* ProfileController.swift */,
 			);
-			name = Controller;
-			path = ImgDares/Controller;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		7EF242321C9B03A800B8BCA5 /* Model  */ = {
 			isa = PBXGroup;
 			children = (
+				7EAC12971CA3E10900E8DF33 /* PostModel.swift */,
+				7EAC12991CA3E3B200E8DF33 /* ProfileModel.swift */,
 			);
-			name = "Model ";
-			path = "ImgDares/Model ";
+			path = "Model ";
 			sourceTree = "<group>";
 		};
 		7EF242331C9B03A800B8BCA5 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = View;
-			path = ImgDares/View;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,8 +245,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EAC129C1CA3E6A700E8DF33 /* ProfileController.swift in Sources */,
 				7EF242141C9B013A00B8BCA5 /* ViewController.swift in Sources */,
+				7EAC12981CA3E10900E8DF33 /* PostModel.swift in Sources */,
 				7EF242121C9B013A00B8BCA5 /* AppDelegate.swift in Sources */,
+				7EAC129A1CA3E3B200E8DF33 /* ProfileModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +445,7 @@
 				7EF2422D1C9B013A00B8BCA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EF2422E1C9B013A00B8BCA5 /* Build configuration list for PBXNativeTarget "ImgDaresTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +454,7 @@
 				7EF242301C9B013A00B8BCA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
